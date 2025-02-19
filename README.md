@@ -1,83 +1,70 @@
-H Piano
-A responsive virtual piano keyboard built with React that allows users to play musical notes using their computer keyboard or by clicking on the piano keys.
-![image](https://github.com/user-attachments/assets/3ca77e9d-cbce-4a46-aa18-fc669e1f74fd)
-Responsive UI screens -
-![image](https://github.com/user-attachments/assets/449edcf3-9bd4-4c23-aaff-65b9dd8780e5)
-![image](https://github.com/user-attachments/assets/217148fd-4918-408e-bbb3-e9f58c1a10b4)
+# Getting Started with Create React App
 
-Features
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Interactive piano keyboard with visual feedback
-Play notes using computer keyboard or mouse clicks
-Adjustable volume control
-Toggle key labels on/off
-Dark/Light theme options
-Ripple effect animation when keys are played
-Smooth animations for a polished user experience
+## Available Scripts
 
-How to Play
+In the project directory, you can run:
 
-Use your computer keyboard keys (a, w, s, e, d, f, t, g, y, h, u, j, k, o, l, p) to play notes
-Alternatively, click directly on the piano keys with your mouse
-White keys are mapped to: a, s, d, f, g, h, j, k, l
-Black keys are mapped to: w, e, t, y, u, o, p
+### `npm start`
 
-Installation
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Clone the repository
-git clone https://github.com/yourusername/h-piano.git
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# Navigate to project directory
-cd h-piano
+### `npm test`
 
-# Install dependencies
-npm install
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-# Start the development server
-npm start
+### `npm run build`
 
-Technologies Used:
-React.js
-CSS3 with custom animations
-HTML5 Audio API
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Project Structure:
-h-piano/
-├── src/
-│   ├── components/
-│   │   └── Piano.jsx
-│   ├── styles/
-│   │   └── piano.css
-│   ├── assets/
-│   │   └── tunes/
-│   │       ├── a.mp3
-│   │       ├── w.mp3
-│   │       └── ... (other audio files)
-│   └── App.js
-├── public/
-├── package.json
-└── README.md
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Customization Options
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Volume Control: Adjust the sound volume using the slider
-Key Labels: Toggle the visibility of keyboard letters on piano keys
-Theme Toggle: Switch between dark and light themes
+### `npm run eject`
 
-Future Enhancements
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
- Record and playback functionality
- Additional instrument sounds
- MIDI device support
- Save and share compositions
- Mobile-responsive design improvements
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Fork the repository
-Create your feature branch (git checkout -b feature/amazing-feature)
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Open a Pull Request
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
