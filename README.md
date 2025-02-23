@@ -42,20 +42,34 @@ HTML5 Audio API
 
 Project Structure
 
-h-piano/
+piano-keyboard/
+
 ├── src/
+
 │   ├── components/
+
 │   │   └── Piano.jsx
+
 │   ├── styles/
+
 │   │   └── piano.css
+
 │   ├── assets/
+
 │   │   └── tunes/
+
 │   │       ├── a.mp3
+
 │   │       ├── w.mp3
+
 │   │       └── ... (other audio files)
+
 │   └── App.js
+
 ├── public/
+
 ├── package.json
+
 └── README.md
 
 Customization Options
