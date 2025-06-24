@@ -97,8 +97,12 @@ react-piano/
 ---
 
 ## Screenshots
+With visible keys :
+![image](https://github.com/user-attachments/assets/9f3e4b1f-7191-4e57-9646-64d33cd2d128)
 
-> _Add screenshots or a demo GIF here to showcase the UI!_
+Invisible Keys :
+![image](https://github.com/user-attachments/assets/f8f423a9-d178-422d-9434-6fba61a9935f)
+
 
 ---
 
